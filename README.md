@@ -42,6 +42,20 @@ You will. When you come back, don't read the backlog and don't try to catch up. 
 
 Only two, because a template is worth having when filling it in makes you do something you'd otherwise skip. Prose notes don't need a shape.
 
+## How to take notes, by situation
+
+The default is: don't. Most notes are a waste and that's fine. The ones worth writing are the ones where writing *is* the work, or where you know you'll come looking and won't remember.
+
+**Reading a book.** One bullet per idea, phrased as a claim in your own words: "bugs cluster in recently changed code", not "on bug distribution". If you're transcribing, close the book first. The filter: does this change something I do, or contradict something I believe? If neither, skip it. Three takeaways from a good book is a lot. Zero is a legitimate outcome.
+
+**Studying a book with problems.** Different job. Problems get worked on paper: markdown is a terrible place to do physics. What goes in the vault is the error log: the problem you couldn't start, what you tried, what was actually needed, and the tell - the surface feature that should have pointed you at the rightmethod. Collecting tells is the skill. Mix in problems from three or four sections back rather than grinding one chapter; it feels worse and works better.
+
+**Learning a skill you keep coming back to.** Debugging, problem-solving, writing. These fail as essays because you never open them. Write the trigger first - the felt symptom that should make you look, like "stuck on the same error for 20 minutes" - then a short menu of moves under it. A menu, not an algorithm; the point is retrieval at the moment you're stuck, not obedience. `templates/debug.md` is an example.
+
+**Projects.** The note holds current state, not history. Rewrite it, don't append to it - the log belongs in your dailies, the commit history in git. Keep one next action filled in at all times, small enough to be embarrassing. Record decisions with dates and dead ends you shouldn't retry. If there's a repo, the split is: anything a collaborator would need goes there, anything only you need stays here. Never both.
+
+**Everything else.** Title it what you'd type when hunting for it. Write the claim, link the source, stop.
+
 ## Design notes
 
 **Why `notes/` is flat.** Subfolders put a "where does this go?" decision in front of every capture, and that's where capture stalls. Search and links do the retrieving, and they don't care about folders. Tags are fine, since a note can carry several and you're not forced to pick one. The rule is that a tag has to be something you'd actually type into search. If you never have, delete it.
